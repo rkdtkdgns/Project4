@@ -10,7 +10,7 @@ int main()
 	scanf("%d", &d);
 	for (a = 0; a < d; a++)
 	{
-		for (b = a; b < d + 1; b++)
+		for (b = a; b < d ; b++)
 		{
 			printf(" ");
 		}
@@ -27,7 +27,7 @@ int main()
 		{
  			printf(" ");
 		}
-		for (c = 0; c <=5; c++)
+		for (c = 0; c <=(a*2)-2; c++) 
 		{
 			printf("*");
 		}
