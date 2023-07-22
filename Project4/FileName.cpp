@@ -20,10 +20,10 @@ int main()
 		}
 		printf("\n");
 	}
-	for (a = d-1; a > d; a--)
+	for (a = d-1; a > 0; a--)
 	{
 		
-		for (b = a; b <= d; a++)
+		for (b = a; b <= d; b++)
 		{
  			printf(" ");
 		}
